@@ -1,6 +1,28 @@
-=============== Apr 18, 2018 (GMT) ===============
-22:54:09.162862 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-22:54:09.169307 db@open opening
-22:54:09.169936 version@stat F·[] S·0B[] Sc·[]
-22:54:09.171780 db@janitor F·2 G·0
-22:54:09.171801 db@open done T·2.468908ms
+=============== Apr 19, 2018 (GMT) ===============
+00:32:30.321547 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:32:30.328010 db@open opening
+00:32:30.328385 version@stat F·[] S·0B[] Sc·[]
+00:32:30.330098 db@janitor F·2 G·0
+00:32:30.330127 db@open done T·2.094416ms
+=============== Apr 19, 2018 (GMT) ===============
+00:32:32.925474 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:32:32.925805 version@stat F·[] S·0B[] Sc·[]
+00:32:32.925832 db@open opening
+00:32:32.925930 journal@recovery F·1
+00:32:32.927298 journal@recovery recovering @1
+00:32:32.936650 memdb@flush created L0@2 N·624 S·50KiB "\x00hL..\x91\xca\n,v481":"\xfe\x88\xcf..H\xef\xcc,v357"
+00:32:32.936951 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+00:32:32.940766 db@janitor F·3 G·0
+00:32:32.940788 db@open done T·14.941768ms
+=============== Apr 19, 2018 (GMT) ===============
+00:32:43.707964 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:32:43.708122 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+00:32:43.708132 db@open opening
+00:32:43.708168 journal@recovery F·1
+00:32:43.710722 journal@recovery recovering @3
+00:32:43.720025 memdb@flush created L0@5 N·1 S·357B "eth..\xa0\xed\x12,v626":"eth..\xa0\xed\x12,v626"
+00:32:43.721887 version@stat F·[2] S·50KiB[50KiB] Sc·[0.50]
+00:32:43.734541 db@janitor F·4 G·0
+00:32:43.734565 db@open done T·26.424392ms
+00:44:18.266202 db@close closing
+00:44:18.266269 db@close done T·65.805µs
